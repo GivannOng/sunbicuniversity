@@ -1,0 +1,325 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+.menu{
+    background-color: darkslategrey;
+}
+#nav{
+    text-align: center;
+}
+/* mau akses list item dalam element dengan id nav */
+#nav li{
+    display: inline-block;
+    position: relative;
+    background-color: darkslategrey;
+}
+#nav li a{
+    text-decoration: none;
+    display: block;
+    width: 200px;
+    line-height: 35px;
+    color: white;
+}
+#nav li li a{
+    font-size: 80%;
+}
+
+#nav li:hover{
+    background-color: dimgray;
+}
+#nav ul{
+    position: absolute;
+    display: none;
+}
+#nav li:hover ul{
+    display: block;
+}
+.logo{
+    text-align: center;
+}
+.logos{
+    width: 400px;
+}
+.university{
+    float: left;
+    margin-left: 100px;
+    margin-top: 40px;
+    width: 600px;
+}
+.texth{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: left;
+    padding: 40px;
+}
+.regislink{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 50px;
+    margin: left;
+}
+.courses{
+    padding-left: 50px;
+    font-size: 25px;
+}
+.coursesimg{
+    width: 100%;
+    transition: transform .2s;
+}
+.zoom{
+    padding-left: 50px;
+    background-color:none;
+    transition: transform .2s;
+    width: 20%;
+}
+.zoom:hover{
+    transform: scale(1.2);
+  }
+.accounting{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 45px;
+}
+.management{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.business{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.engineering{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.coursetext1{
+    width: 100%;
+    font-family: fantasy;
+}
+.accountingtext{
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+    text-align: center;
+    transition: transform.2s;
+}
+.managementtext{
+    float: left;
+    width: 20%;
+    padding-left: 60px;
+    text-align: center;
+}
+.businesstext{
+    float: left;
+    width: 20%;
+    padding-left: 70px;
+    text-align: center;
+}
+.engineeringtext{
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+    text-align: center;
+}
+.cs{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.theatre{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.communication{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.architect{
+    padding: 10px;
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+}
+.cstext{
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+    text-align: center;
+}
+.theatretext{
+    float: left;
+    width: 20%;
+    padding-left: 60px;
+    text-align: center;
+}
+.communicationtext{
+    float: left;
+    width: 20%;
+    padding-left: 70px;
+    text-align: center;
+}
+.architecttext{
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+    text-align: center;
+}
+footer{
+    margin-top: 500px;
+    padding: 10px;
+    background-color: darkslategrey;
+    bottom: 0;
+    color: floralwhite;
+    width: 100%;
+}
+.leftfooter{
+    padding-left: 150px;
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+}
+.adec{
+    text-decoration: none;
+    color: navajowhite;
+}
+.midfooter{
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    color: navajowhite;
+}
+.midfooter h3{
+    color: floralwhite;
+}
+.whatsapp{
+    padding-top: 5px;
+    width: 15px;
+}
+.email{
+    padding-top: 5px;
+    width: 15px;
+}
+.rightfooter{
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    color: floralwhite;
+    padding-bottom: 20px;
+}
+.twitter{
+    width: 25px;
+}
+.linkedin{
+    width: 25px;
+}
+.facebook{
+    width: 25px;
+}
+.registerbox{
+    background-color: lightslategray;
+    margin-top: 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom:30px;
+    margin-bottom: 30px;
+}
+form{
+    padding-left: 300px;
+}
+.box{
+    width: 500px;
+}
+.registerfooter{
+    margin-top: 50px;
+    padding: 10px;
+    background-color: darkslategrey;
+    bottom: 0;
+    color: floralwhite;
+    width: 100%;
+}
+.submit{
+    width: 100px;
+    margin-left: 85px;
+}
+.facilitiestext{
+    width: 100%;
+    padding: 100px;
+}
+.librarytext{
+    float: left;
+    width: 20%;
+    padding-left: 50px;
+    text-align: center;
+}
+
+.facilitiesdesc{
+    width: 100%;
+    text-align: left;
+}
+.classroomdesc{
+    float: left;
+    width: 18%;
+    padding-left: 50px;
+    text-align: left;
+}
+.largeclassroomdesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.librarydesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.gymnasiumdesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.canteendesc{
+    float: left;
+    width: 18%;
+    padding-left: 50px;
+    text-align: left;
+}
+.busdesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.conferencedesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.workshopdesc{
+    float: left;
+    width: 18%;
+    padding-left: 80px;
+    text-align: left;
+}
+.faciltiesfooter{
+    margin-top: 100px;
+    padding: 10px;
+    background-color: darkslategrey;
+    bottom: 0;
+    color: floralwhite;
+    width: 100%;
+}
